@@ -1,0 +1,118 @@
+:root {
+    --backrgound-color: #DEB887;
+    --color: #814b2e;
+    --texte: #000000;
+}
+
+body {
+    margin: 0;
+    background-color: var(--backrgound-color);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header>img{
+    height:80px ;
+    width: 60p;
+}
+
+nav {
+
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    background-color: var(--color);
+    display: flex;
+
+}
+
+footer {
+margin: 5px;
+    display: flex;
+    align-items: center;
+    color: var(--texte);
+}
+
+footer>div {
+    margin-left: auto;
+}
+
+footer>div>img {
+    margin: 5px;
+}
+
+main>div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--texte);
+}
+
+h4 {
+    text-align: center;
+    color: var(--color);
+    font-size: 20px;
+}
+
+div>span:first-child {
+    background-image: url(images/lay-up.jpg);
+    text-align: center;
+}
+
+div>span:nth-child(2) {
+    background-image: url(images/shoot.jpg);
+    text-align: center;
+}
+
+div>span:nth-child(3) {
+    background-image: url(images/shoot.jpg);
+    text-align: center;
+}
+
+div>span:nth-child(4) {
+    background-image: url(images/lay-up.jpg);
+    text-align: center;
+}
+
+div>span:nth-child(5) {
+    background-image: url(images/lay-up.jpg);
+    text-align: center;
+}
+
+div>span:last-child {
+    background-image: url(images/shoot.jpg);
+    text-align: center;
+}
+
+div>span {
+    Z-index: 1;
+    background-color: var(--backrgound-color);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 350px;
+    margin: 20px;
+    background-size: contain;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+footer>div>img{
+    height:20px ;
+}
+   
